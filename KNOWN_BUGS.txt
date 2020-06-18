@@ -1,0 +1,13 @@
+12/10/2018
+Bugs:
+
+*Two players can select the same unit at the same time. As of now, we just deselect both players.
+However, we would like to check the time that both people clicked and allow the first person to keep
+The unit selected.
+
+12/11/2018
+Bugs:
+
+*Anthony is bored as frick waiting for people to join. Namco did it first, now its our turn.  Make a mini game.
+
+*You can connect to a host that does not exist. That's lame.

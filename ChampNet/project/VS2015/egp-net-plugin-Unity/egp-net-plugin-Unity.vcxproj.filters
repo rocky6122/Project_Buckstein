@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Plugin Bridge">
+      <UniqueIdentifier>{c64a87b4-e8fe-4a2d-ae22-88f5353103db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Actual Plugin">
+      <UniqueIdentifier>{1e123672-5ccf-4962-8ced-2efe98d108d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Actual Plugin">
+      <UniqueIdentifier>{365f84f8-7da4-488a-9f2c-6cf5c57c33ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Plugin Bridge">
+      <UniqueIdentifier>{1f7b3256-2aa9-40c2-989f-663e4ddff93b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Thread">
+      <UniqueIdentifier>{e489f800-f972-433c-8dd1-7709d370a002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Thread">
+      <UniqueIdentifier>{a710e069-df6b-4718-a778-481f23160687}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\source\egp-net-plugin-Unity\NetworkingInstance.h">
+      <Filter>Header Files\Actual Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\egp-net-plugin-Unity\egp-net-plugin.h">
+      <Filter>Header Files\Plugin Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\egp-net-plugin-Unity\egp-net-plugin-config.h">
+      <Filter>Header Files\Plugin Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\egp-net-plugin-Unity\networkManager.h">
+      <Filter>Header Files\Actual Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\egp-net-plugin-Unity\NetworkingStructs.h">
+      <Filter>Header Files\Actual Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\egp-net-plugin-Unity\egpThread.h">
+      <Filter>Header Files\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\egp-net-plugin-Unity\egpTimer.h">
+      <Filter>Header Files\Thread</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\source\egp-net-plugin-Unity\egp-net-plugin-dllmain.cpp">
+      <Filter>Source Files\Plugin Bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\egp-net-plugin-Unity\NetworkingInstance.cpp">
+      <Filter>Source Files\Actual Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\egp-net-plugin-Unity\egp-net-plugin.cpp">
+      <Filter>Source Files\Plugin Bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\egp-net-plugin-Unity\networkManager.cpp">
+      <Filter>Source Files\Actual Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\egp-net-plugin-Unity\egpThread.c">
+      <Filter>Source Files\Thread</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\source\egp-net-plugin-Unity\egpTimer.inl">
+      <Filter>Header Files\Thread</Filter>
+    </None>
+  </ItemGroup>
+</Project>

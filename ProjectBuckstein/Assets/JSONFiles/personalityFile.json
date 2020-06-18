@@ -1,0 +1,32 @@
+{
+	"namesNum" : 41,
+	"names" : [ 
+				"Arthur Morgan", "Mason", "Sgt. Woods", "Lt. Dan", "Buckstein", 
+				"Dutch", "John Marston", "Kung-Fury", "Abradolf Lincler", "Dean Lawson",
+				"'Goatboy'", "Bob Shmurda", "'DeanLib'", "Mr. Bean", "Spock",
+				"Picard", "Old Ben Kenobi", "C-3PO", "Capt. Kirk", "Thanos",
+				"Ty Chipster", "Scottie", "John I'mgrand", "Tony Patroney", "Peter Stacks",
+				"George Bush", "Obama", "Warren Sides", "Phoenix Wright", "Goku", 
+				"L", "Joseph Joestar", "DIO", "Mario", "Jesus",
+				"Waluigi", "Don Laackman", "Julius Caesar", "Shakespeare", "Wei Kai-Chen",
+				"George H.W. Lopez"
+			  ],
+	"bloodNum" : 4,
+	"bloodType": ["A", "B", "AB", "O"],
+	"likesNum" : 62,
+	"likes" : [ 
+				"Communism", "Capitalist Scum", "Cheesecake", "Meiji Era", "Tickles",
+				"Mothers", "Fathers", "Children", "Video Games", "Anime", 
+				"Horses", "The Number 4", "Bob Ross", "Banjo-Kazooie", "Internet Explorer",
+				"Skype", "Having Friends", "Programming", "Daniel Buckstein", "Dean Lawson",
+				"Mark's Proofs", "Earth-Chan", "Shenanigans", "Globalization", "Western Influence",
+				"Quaternions", "White Castle", "Dogs", "Cats", "Spoonbills",
+				"Reddit", "Rock N' Roll", "Opera", "Country Music", "'Vroom Vroom'", 
+				"Sports Cars", "Beastiality", "RGB Keyboards", "'Auto' Keyword", "Murder", 
+				"Elon Musk", "NASCAR", "God", "C++", "C", 
+				"Animal3D", "TortoiseSVN", "Fortnite", "Those People", "Christmas",
+				"Smash Ultimate", "DeanLib's Bugs", "Sakurai", "Hideo Kojima", "Konami Code",
+				"Penguins", "Michael Scott", "Self-Loathing", "Pottery", "Yu-Gi-Oh 5Ds",
+				"Cucks", "Roger Rabbit", "Themself"
+			  ]
+}

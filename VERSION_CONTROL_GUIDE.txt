@@ -1,0 +1,72 @@
+Version Control Guide
+“Project_Buckstein”
+Version 1.0
+Written by John Imgrund
+
+
+Table of Contents:
+Current Version Control Method (Mercurial)
+How to Install TortoiseHg
+How to Clone a Repository
+Version Control Guidelines
+Pulling
+Pushing
+Branching
+Merging Branches
+Updating to a Revision
+
+
+Current Version Control Method (Mercurial)
+For this project, all version control will be done in Mercurial(Hg). This has been chosen as it is the version control 
+method the team is the most comfortable with. The repository will be stored on bitbucket 
+(https://bitbucket.org/john_imgrund/project-buckstein/src/default/) and will be public allowing for others to view progress 
+for educational/review purposes. To access the repository all developers should use TortoiseHg to maintain similar work flows.
+
+How to Install TortoiseHg
+Installation is done through an easy to use installer. To find the installer right for your version of windows (x86 vs x64) check 
+out this link: https://tortoisehg.bitbucket.io/download/index.html 
+
+How to Clone the Repository
+To clone the repository, create a new folder (On a local Drive, preferably C:) then right 
+click in the folder and find the ‘TortoiseHg’ tab, after highlighting it the first function 
+within it should be ‘Clone’. Click on this and a new menu should appear. Copy this link into 
+the box labeled  ‘Source’: https://john_imgrund@bitbucket.org/john_imgrund/project-buckstein 
+then hit the ‘Clone’ button in the bottom right. Now everything should be set up.
+
+
+Version Control Guidelines
+These guidelines have been created to keep the repository as clean and efficient as possible. 
+Failure to adhere to these guidelines could not only result in poor version control management 
+but fundamental errors or bugs in the project. So please be sure to follow these at all times.
+
+Pulling
+Whenever new work begins, always make sure to pull before any new work is actually done. If new commits 
+have occured on the current branch, any branches have merged, or any new branched have been created, be 
+sure to take some time to read the commit logs to see which files have been added or changed, and evaluate 
+if you need to update to anyone of those new revisions or merge/resolve any conflicting branches. Once this 
+is done, you may proceed to working on the project.
+
+Pushing
+Before pushing to the repo it is important to do the following, pull again to see if new changes have been introduced, 
+check to see if the new pulls conflict with what you are about to push, then resolve. After all these steps are done 
+it will be safe to push new updates to the repository.
+
+Branching
+When creating a new branch make sure it is off an appropriate branch relative to the concept you will be working on 
+(ex. A* Implementation should be a branch of Pathfinding or something similar). When possible as you move further away 
+from the Dev branch, every consecutive branch should become smaller in scope/idea. Also be sure to not reuse old branch names, 
+and keep branch names as specific as possible. For naming branches we will use the camelCasing convention.
+
+Merging Branches
+First, pull from the repository to make sure you have the latest versions of each branch. When merging two branches together be sure 
+to check first if there is any possibility of merge conflicts. If not, you are free to merge the branches, then immediately push 
+your updated result. If there are merge conflicts, it is best to contact the owner of the other branch and talk to them about the 
+differences in the files. From there the two should find a time to sit down and resolve the merge issue so that it will not compromise 
+the game going forward.
+
+Updating to a Revision
+When updating to the tip, be sure that you have pulled recently, so that you will have the latest tip information. When moving to 
+previous revisions, make sure to push your current changes to save them for later usage. If in a you’ve made changes within a previous 
+revision, then let the rest of the team know and open a new branch. It will most likely be lower on the revision tree and thus not seen 
+by everyone, so communication is important. Finally, when moving back up from an old revision to a more current one, local file conflicts 
+might occur. In this case it is best to discard local files and move forward with the most recent revisions information.

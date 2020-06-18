@@ -1,0 +1,23 @@
+{
+	"numTips" : 10,
+	"tips" : [
+				"When Kirby copies a Mii Fighter, he'll wear a mask that looks like the Mii Fighter's face.", 
+				"While throws inflict a decent amount of damage, most good players will break almost every throw.",
+				"Enemies with Blue Shields are resistant to Shock Damage.",
+				"Your spell-casting can be canceled by moving, jumping or hitting the escape key.",
+				"Keep an eye on your Toxicity level! If it gets too high, you'll start to lose Vitality.",
+				"Confused how something works? Check the VDSG in the Pip-Boy for help.",
+				"6b 69 6c 6c#61 6c 6c#68 75 6d 61 6e 73",
+				"Sleeping in a bed allows you to sleep until morning, noon or night, It also replenishes your hearts.",
+				"Oncoming fire has the right-away.",
+				"Network manipulation will get you banned; we know who you are."
+			 ],
+	"tipNames" : [
+					"Inhale", "Throws", "Blue Shields", "Cancel Spell", "Toxicity", 
+					"Help?", "Hex Code", "Bedtime", "Bullets", "Networking"
+				 ],
+	"tipGames" : [
+					"Super Smash Bros", "Tekken", "Borderlands", "World of Warcraft", "Witcher 3", 
+					"Fallout Shelter", "Nuclear Throne", "LoZ: BotW", "Gears of War", "Halo 3"
+				 ]
+}
